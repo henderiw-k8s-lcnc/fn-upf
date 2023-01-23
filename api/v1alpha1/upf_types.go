@@ -17,6 +17,8 @@ limitations under the License.
 package v1alpha1
 
 import (
+	"reflect"
+
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 
@@ -54,3 +56,7 @@ type UpfList struct {
 func init() {
 	SchemeBuilder.Register(&Upf{}, &UpfList{})
 }
+
+var (
+	UpfKind = reflect.TypeOf(Upf{}).Name()
+)
