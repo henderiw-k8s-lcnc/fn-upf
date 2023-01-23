@@ -1,0 +1,23 @@
+domain: nf.nephio.org
+layout:
+- go.kubebuilder.io/v3
+projectName: fn-upf
+repo: github.com/henderiw-k8s-lcnc/fn-upf
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: nephio.org
+  group: upf
+  kind: Upf
+  path: github.com/henderiw-k8s-lcnc/fn-upf/api/v1alpha1
+  version: v1alpha1
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: nephio.org
+  group: upf
+  kind: UpfImplementation
+  path: github.com/henderiw-k8s-lcnc/fn-upf/api/v1alpha1
+  version: v1alpha1
+version: "3"

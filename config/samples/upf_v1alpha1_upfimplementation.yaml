@@ -1,0 +1,12 @@
+apiVersion: upf.nephio.org/v1alpha1
+kind: UpfImplementation
+metadata:
+  labels:
+    app.kubernetes.io/name: upfimplementation
+    app.kubernetes.io/instance: upfimplementation-sample
+    app.kubernetes.io/part-of: fn-upf
+    app.kuberentes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: fn-upf
+  name: upfimplementation-sample
+spec:
+  # TODO(user): Add fields here
