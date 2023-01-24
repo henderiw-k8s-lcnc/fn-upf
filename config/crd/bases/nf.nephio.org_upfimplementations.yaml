@@ -5,9 +5,9 @@ metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.9.2
   creationTimestamp: null
-  name: upfimplementations.upf.nephio.org
+  name: upfimplementations.nf.nephio.org
 spec:
-  group: upf.nephio.org
+  group: nf.nephio.org
   names:
     kind: UpfImplementation
     listKind: UpfImplementationList

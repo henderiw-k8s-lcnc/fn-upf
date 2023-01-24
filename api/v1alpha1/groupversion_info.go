@@ -16,7 +16,7 @@ limitations under the License.
 
 // Package v1alpha1 contains API Schema definitions for the upf v1alpha1 API group
 // +kubebuilder:object:generate=true
-// +groupName=upf.nephio.org
+// +groupName=nf.nephio.org
 package v1alpha1
 
 import (
